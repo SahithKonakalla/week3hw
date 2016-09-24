@@ -5,11 +5,20 @@ Parser::Parser() {
 }
 
 string Parser::getCommandRef(string cmd){
-	/*
-		Put Your Command Reference Code Here (ie the if else statements)
-	*/
+	if (cmd == "nano") {
+		return "A terminal text editor";
+	}
+	if (cmd == "ls") {
+		return "Lists everything in the current directory";
+	}
+	if (cmd == "cd") {
+		return "Change directory";
+	}
+	if (cmd == "rm") {
+		return "Remove file";
+	}
 	if (cmd == "cat"){
-		return "prints content of file";
+		return "Cats are cool";
 	}
 	return "reference";
 }

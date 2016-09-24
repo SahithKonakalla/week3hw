@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-#needed in every CMakeLists.  
-#include outside libraries, we’ll show you how to do that when we get into OpenCV
-project(hw) #names the project
+project(ExampleProject)
 
-add_executable(hw main.cpp Parser.cpp) 
-
+add_executable(main.cpp Parser.cpp)
+#Sahith_Konakalla
